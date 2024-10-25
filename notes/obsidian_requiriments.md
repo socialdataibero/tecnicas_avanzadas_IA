@@ -1,0 +1,3 @@
+- ## Pluggins de la comunidad
+	- Dataview - 0.5.67
+	- Mind Maps - 1.1.0

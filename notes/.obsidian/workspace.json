@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "a9cbd36c86232e66",
+    "type": "split",
+    "children": [
+      {
+        "id": "29f9fbc3a08e575d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e6632b977033ed7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          },
+          {
+            "id": "f77747c6d2467699",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sheets/Control/control_taxonomy_AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "control_taxonomy_AI"
+            }
+          },
+          {
+            "id": "7522a84f1041fb8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/sheet_template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sheet_template"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "489b4be08eefbcb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1371ea4abc67450",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef79ecad2dc2b303",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "faa8d9e41e50d9d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "da16aa5e6c861268",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.5
+  },
+  "right": {
+    "id": "a60e2ee064302796",
+    "type": "split",
+    "children": [
+      {
+        "id": "0295192149f30486",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e379f13f8b36d4a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Generar_Diagrama_Excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Generar_Diagrama_Excalidraw"
+            }
+          },
+          {
+            "id": "3cacaf8fa0a14b68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Generar_Diagrama_Excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Generar_Diagrama_Excalidraw"
+            }
+          },
+          {
+            "id": "75855be09247a12b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "d3d1f671da81a885",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Generar_Diagrama_Excalidraw.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Generar_Diagrama_Excalidraw"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "2e6632b977033ed7",
+  "lastOpenFiles": [
+    "sheets/ML/Supervisado/Linear_Regression.md",
+    "sheets/Control/control_taxonomy_AI.md",
+    "sheets/DL/CNN.md",
+    "sheets/Control/control_techniques.md",
+    "Templates/sheet_template.md",
+    "team/Armando.md",
+    "obsidian_requiriments.md",
+    "Templates/teammate_template.md",
+    "taxonomy AI.md",
+    "sheets/Agents",
+    "sheets/CV",
+    "sheets/NLP",
+    "AI_Diagram_Tree.md",
+    "sheets/ML/Supervisado/Regresion_Logistica.md",
+    "sheets/ML/Supervisado/Regresion_Lineal.md",
+    "sheets/ML/Regresion_Lineal.md",
+    "URL_de_la_imagen.md",
+    "team/Dayana.md",
+    "sheets/ML/Supervisado/Lasso.md",
+    "team/Getza.md",
+    "name.md",
+    "team",
+    "Templates/Sin nombre",
+    "sheets/Control/control_sheets.md",
+    "Ana Gómez.md",
+    "sheets/ML/Supervisado",
+    "sheets/ML/Linear_Regression.md",
+    "Templates/prueba.md",
+    "Templates/scripts/script_prueba.js.md",
+    "Templates/scripts/custom_template.md",
+    "Templates/scripts",
+    "www.enlace2.com.md",
+    "sheets/DL",
+    "sheets/Control",
+    "sheets/ML"
+  ]
+}

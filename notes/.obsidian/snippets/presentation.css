@@ -1,0 +1,139 @@
+/* Fondo general de las diapositivas */
+.slides {
+    background-color: #1e1e2f; /* Fondo oscuro */
+    color: #f0f0f0; /* Texto claro */
+    padding: 20px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  }
+  
+  /* Estilo de cada diapositiva */
+  .slides .slide {
+    background: linear-gradient(135deg, #3a3f58, #2d2d40);
+    color: #f8f8f2;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .slides .slide:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Estilo de los encabezados */
+  .slides h1 {
+    font-size: 3em;
+    color: #ff79c6; /* Rosa brillante */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+  }
+  
+  .slides h2 {
+    font-size: 2.5em;
+    color: #8be9fd; /* Azul claro */
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+  }
+  
+  .slides h3 {
+    font-size: 2em;
+    color: #50fa7b; /* Verde */
+    margin-bottom: 10px;
+  }
+  
+  /* Texto en párrafos */
+  .slides p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #f1fa8c; /* Amarillo */
+    margin-bottom: 20px;
+  }
+  
+  /* Listas con estilo */
+  .slides ul {
+    margin: 20px 0;
+    padding-left: 30px;
+  }
+  
+  .slides li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #bd93f9; /* Púrpura */
+  }
+  
+  .slides li::marker {
+    color: #ff79c6; /* Marcador rosa */
+    font-size: 1.3em;
+  }
+  
+  /* Estilo de los enlaces */
+  .slides a {
+    color: #ff5555; /* Rojo intenso */
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .slides a:hover {
+    color: #ff6e6e; /* Rojo más claro al pasar el ratón */
+  }
+  
+  /* Botones personalizados */
+  .slides .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #6272a4; /* Azul profundo */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .slides .button:hover {
+    background-color: #44475a; /* Azul más oscuro */
+    transform: scale(1.05);
+  }
+  
+  /* Imágenes */
+  .slides img {
+    max-width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+  }
+  
+  /* Código */
+  .slides code {
+    background-color: #44475a;
+    color: #f8f8f2;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 1.1em;
+  }
+  
+  /* Transición entre diapositivas */
+  .slides .slide-enter {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  
+  .slides .slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .slides .slide-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .slides .slide-exit-active {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
