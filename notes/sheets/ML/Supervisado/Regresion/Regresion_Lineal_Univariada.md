@@ -2,7 +2,9 @@
 title: Regresion_Lineal_Univariada
 category:
   - 🤖 ML
-subcategory: Supervisado
+subcategory:
+  - Supervisado
+  - Regresion
 tags:
   - ML
   - Supervisado

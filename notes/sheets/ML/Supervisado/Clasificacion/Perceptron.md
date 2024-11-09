@@ -1,31 +1,26 @@
 ---
-title: "{{title}}"
+title: Perceptron
 category:
   - 🤖 ML
-  - 🧠 DL
-  - 👁️ CV
-  - 🗣️ NLP
-  - 🕵️‍♂️ Agents
 subcategory:
-  - Subcategoria
+  - Supervisado
+  - Clasificacion
 tags:
   - Etiqueta1
   - Etiqueta2
   - Etiqueta3
 status:
-  - ❌ No iniciado
   - 🔵 En Progreso
-  - ✅ Completado
-date: "{{date}}"
+date: 2024-11-08
 asigned_to:
-  - "[[name]]"
+  - "[[Armando]]"
 ---
 --- 
-# 📝 Ficha Técnica: {{title}}
+# 📝 Ficha Técnica: Perceptron
 
 ## ✅ Estado de Compleción
-- [ ] **Título del algoritmo**
-- [ ] **Representación gráfica del algoritmo**
+- [x] **Título del algoritmo**
+- [x] **Representación gráfica del algoritmo**
 - [ ] **Introducción al algoritmo y su relevancia**
 - [ ] **Bases Matemáticas del Algoritmo**
 - [ ] **Código de ejemplo en Python**
@@ -38,25 +33,21 @@ asigned_to:
 ---
 ## 1. Título del Algoritmo
 
->*Instrucciones:* Especificar el nombre del algoritmo de manera clara y concisa.
-### *Ejemplo:* **Máquina de Vectores de Soporte (SVM)**
+### **Perceptrón**
 
 ---
 ## 2. Representación Gráfica del Algoritmo
 
-> *Instrucciones:* Inserta una imagen que ilustre la estructura o el funcionamiento del algoritmo. Guarda la imagen en la carpeta icons/. No olvides añadir la referencia de la imagen.
+![[perceptron_icon.png]]
 
-![Descripción de la imagen](URL_de_la_imagen)
-
-Referencia: ...
+Referencia: <a href="https://www.flaticon.com/free-icons/perceptron" title="perceptron icons">Perceptron icons created by orvipixel - Flaticon</a>
 
 ---
 ## 3. Introducción al Algoritmo 
 
-> **Instrucciones**: Describir fundamentalmente qué es el algoritmo, su relevancia en el campo de la IA y características principales. 
+Históricamente, el diseño del ***perceptrón*** nació como una inspiración biológica de las neuronas. Este es una unidad básica de procesamiento capaz de realizar tareas de clasificación binaria mediante la suma ponderada de entradas y la aplicación de una función de activación. 
 
-*Ejemplo:*
-La **Máquina de Vectores de Soporte (SVM)** es un algoritmo de aprendizaje supervisado utilizado principalmente para tareas de clasificación y regresión. Su relevancia radica en su capacidad para manejar datos de alta dimensión y su efectividad en espacios no lineales mediante el uso de núcleos.
+A pesar de su simplicidad, el perceptrón ha sido crucial para el avance de la inteligencia artificial, permitiendo ser una entender conceptos esenciales como el ajuste de pesos y la convergencia en algoritmos de aprendizaje supervisado. Sin embargo, presenta limitaciones, como la incapacidad para resolver problemas que no son linealmente separables, lo que motivó la creación de modelos más avanzados como los perceptrones multicapa y el uso de funciones de activación no lineales.
 
 ---
 ## 4. Bases Matemáticas del Algoritmo
@@ -68,10 +59,9 @@ Las bases matemáticas de SVM se centran en encontrar un hiperplano que separa d
 
 ### 4.1 Ilustración del funcionamiento (*Opcional*)
 
-> ***Instrucciones***: Si es posible, añadir una imagen que haga una descripción más técnica/matemática del algoritmo. No olvides la referencia.
+![[perceptron_des.png]]
 
-
-Referencia: ...
+Referencia: https://deepgram.com/ai-glossary/perceptron
 
 ---
 ## 5. Código de Ejemplo en Python

@@ -8,6 +8,7 @@
 			-  Árboles de Decisión
 			-  K Vecinos más Cercanos (K-NN)
 			-  Naive Bayes
+			-  Perceptrón
 		- Regresión
 			- Lineal
 				- Univariada
@@ -42,7 +43,7 @@
 	-  Redes Generativas Antagónicas (GANs)
 	-  Transformers
 ---
-- Visión por Computadora (Computer Vision - CV)
+- Visión por Computadora (**Computer Vision** - CV)
 	- Image Clasification
 	- Object Detection
 	- Image Segmentation

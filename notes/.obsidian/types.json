@@ -28,6 +28,7 @@
     "date": "date",
     "status": "multitext",
     "asigned_to": "multitext",
-    "category": "multitext"
+    "category": "multitext",
+    "subcategory": "multitext"
   }
 }
