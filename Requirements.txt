@@ -1,0 +1,15 @@
+# Data processing and analysis
+numpy==2.1.2
+pandas==2.2.3
+scipy==1.14.1
+
+# Machine learning
+scikit-learn==1.5.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# # Jupyter
+# jupyter-book==1.0.3
+

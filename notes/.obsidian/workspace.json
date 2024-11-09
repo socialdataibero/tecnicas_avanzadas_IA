@@ -4,45 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "29f9fbc3a08e575d",
+        "id": "3648927183a017ad",
         "type": "tabs",
         "children": [
           {
-            "id": "2e6632b977033ed7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          },
-          {
-            "id": "f77747c6d2467699",
+            "id": "fe784594d8c96731",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sheets/Control/control_taxonomy_AI.md",
+                "file": "taxonomy AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "control_taxonomy_AI"
-            }
-          },
-          {
-            "id": "7522a84f1041fb8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/sheet_template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "sheet_template"
+              "title": "taxonomy AI"
             }
           }
         ]
@@ -187,42 +163,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2e6632b977033ed7",
+  "active": "fe784594d8c96731",
   "lastOpenFiles": [
-    "sheets/ML/Supervisado/Linear_Regression.md",
-    "sheets/Control/control_taxonomy_AI.md",
-    "sheets/DL/CNN.md",
-    "sheets/Control/control_techniques.md",
-    "Templates/sheet_template.md",
-    "team/Armando.md",
     "obsidian_requiriments.md",
-    "Templates/teammate_template.md",
+    "sheets/ML/Supervisado/Regresion_Lineal_Univariada.md",
+    "icons/regresion.png",
     "taxonomy AI.md",
-    "sheets/Agents",
-    "sheets/CV",
-    "sheets/NLP",
+    "dev_guide.md",
+    "Templates/sheet_template.md",
+    "presentations/~$TAIA_log_AH.pptx",
+    "presentations/TAIA_log_AH.pptx",
+    "presentations/ppt3CEF.tmp",
+    "presentations/~$TAIA_15_10_24.pptx",
+    "presentations/nomenclature.md",
+    "presentations/~$TAIA_22_10_24.pptx",
+    "presentations/pptE2E4.tmp",
+    "presentations/TAIA_22_10_24.pptx",
+    "URL_de_la_imagen.md",
+    "icons/regresion.png.crdownload",
+    "icons",
+    "presentations/TAIA_15_10_24.pptx",
+    "sheets/Control/control_taxonomy_AI.md",
+    "ML/Regresion_Lineal_Univariada.md",
+    "sheets/Control/control_techniques.md",
+    "team/Armando.md",
+    "sheets/ML/Supervisado/Linear_Regression.md",
+    "sheets/DL/CNN.md",
+    "Templates/teammate_template.md",
     "AI_Diagram_Tree.md",
     "sheets/ML/Supervisado/Regresion_Logistica.md",
     "sheets/ML/Supervisado/Regresion_Lineal.md",
     "sheets/ML/Regresion_Lineal.md",
-    "URL_de_la_imagen.md",
     "team/Dayana.md",
     "sheets/ML/Supervisado/Lasso.md",
     "team/Getza.md",
     "name.md",
-    "team",
-    "Templates/Sin nombre",
     "sheets/Control/control_sheets.md",
     "Ana Gómez.md",
-    "sheets/ML/Supervisado",
-    "sheets/ML/Linear_Regression.md",
-    "Templates/prueba.md",
-    "Templates/scripts/script_prueba.js.md",
-    "Templates/scripts/custom_template.md",
-    "Templates/scripts",
-    "www.enlace2.com.md",
-    "sheets/DL",
-    "sheets/Control",
-    "sheets/ML"
+    "sheets/ML/Linear_Regression.md"
   ]
 }

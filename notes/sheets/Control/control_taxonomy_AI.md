@@ -5,14 +5,14 @@
 ### Aprendizaje Supervisado
 
 #### Clasificación
-- [x] [Regresión Lineal](sheets/ML/Supervisado/Linear_Regression.md)
+- [ ] [Regresión Logística](sheets/ML/Supervisado/Linear_Regression.md)
 - [ ] [Máquina de Vectores de Soporte (SVM)](Machine_Learning/SVM.md)
 - [ ] [Árboles de Decisión](Machine_Learning/Arboles_De_Decision.md)
 - [ ] [K Vecinos más Cercanos (K-NN)](Machine_Learning/K_NN.md)
 - [ ] [Naive Bayes](Machine_Learning/Naive_Bayes.md)
 
 #### Regresión
-- [ ] [Lineal](Machine_Learning/Regresion_Lineal.md)
+- [ ] [Lineal Univariada](ML/Regresion_Lineal_Univariada.md)
 - [ ] [Polinomial](Machine_Learning/Regresion_Polinomial.md)
 - [ ] [Lasso](Machine_Learning/Regresion_Lasso.md)
 

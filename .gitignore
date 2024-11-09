@@ -247,3 +247,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Bitácora 
+presentations/

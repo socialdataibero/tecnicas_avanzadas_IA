@@ -10,6 +10,8 @@
 			-  Naive Bayes
 		- Regresión
 			- Lineal
+				- Univariada
+				- Multivariada
 			- Polinomial
 			- Lasso
 	- Aprendizaje NO supervisado
