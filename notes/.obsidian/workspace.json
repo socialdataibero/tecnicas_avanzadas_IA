@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8f8e0b32274b1c77",
+        "id": "8670632f712e1f9d",
         "type": "tabs",
         "children": [
           {
-            "id": "d90c751afbbf9b8f",
+            "id": "2d6dbcf0821071f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sheets/ML/Supervisado/Clasificacion/Perceptron.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Perceptron"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -163,33 +159,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d90c751afbbf9b8f",
+  "active": "2d6dbcf0821071f3",
   "lastOpenFiles": [
     "sheets/Control/control_techniques.md",
-    "sheets/Control/control_taxonomy_AI.md",
     "sheets/ML/Supervisado/Clasificacion/Perceptron.md",
-    "sheets/ML/Supervisado/Clasificacion/Redes_Neuronales_Artificiales.md",
-    "Templates/sheet_template.md",
-    "icons/perceptron_des.png",
     "sheets/ML/Supervisado/Regresion/Regresion_Lineal_Univariada.md",
+    "TAIA/src/basic_code/Perceptron.ipynb.md",
+    "TAIA/src/basic_code",
+    "TAIA/src",
+    "TAIA",
+    "sheets/ML/Supervisado/Clasificacion/Redes_Neuronales_Artificiales.md",
+    "taxonomy AI.md",
+    "obsidian_requiriments.md",
+    "dev_guide.md",
+    "presentations/ppt2B07.tmp",
+    "images/nomenclatura_images.md",
+    "presentations/~$TAIA_log_AH.pptx",
+    "Templates/sheet_template.md",
+    "DL.md",
+    "images/perceptron_des.png",
+    "images/perceptron_des.png",
+    "sheets/Control/control_taxonomy_AI.md",
     "icons/perceptron_icon.png.crdownload",
     "URL_de_la_imagen.md",
-    "icons/perceptron_icon.png",
+    "images/perceptron_icon.png",
     "Fecha inválida.md",
-    "presentations/~$TAIA_log_AH.pptx",
-    "taxonomy AI.md",
     "sheets/ML/Supervisado/Sin nombre/Sin nombre",
     "sheets/ML/Supervisado/Clasificacion",
     "sheets/ML/Supervisado/Regresion",
-    "obsidian_requiriments.md",
-    "icons/regresion.png",
-    "dev_guide.md",
+    "images/regresion.png",
     "presentations/TAIA_log_AH.pptx",
-    "presentations/ppt3CEF.tmp",
-    "presentations/~$TAIA_15_10_24.pptx",
     "presentations/nomenclature.md",
-    "presentations/~$TAIA_22_10_24.pptx",
-    "presentations/pptE2E4.tmp",
     "ML/Regresion_Lineal_Univariada.md",
     "team/Armando.md",
     "sheets/ML/Supervisado/Linear_Regression.md",
@@ -200,9 +200,6 @@
     "sheets/ML/Supervisado/Regresion_Lineal.md",
     "sheets/ML/Regresion_Lineal.md",
     "team/Dayana.md",
-    "sheets/ML/Supervisado/Lasso.md",
-    "team/Getza.md",
-    "name.md",
-    "sheets/Control/control_sheets.md"
+    "sheets/ML/Supervisado/Lasso.md"
   ]
 }

@@ -71,7 +71,7 @@ Las bases matemáticas de SVM se centran en encontrar un hiperplano que separa d
 > ***Instrucciones***: Si es posible, añadir una imagen que haga una descripción más técnica/matemática del algoritmo. No olvides la referencia.
 
 
-Referencia: ...
+**Referencia:** ...
 
 ---
 ## 5. Código de Ejemplo en Python

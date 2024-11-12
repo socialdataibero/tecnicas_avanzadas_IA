@@ -2,5 +2,7 @@
   "dataview",
   "templater-obsidian",
   "obsidian-mind-map",
-  "canvas-minimap"
+  "canvas-minimap",
+  "obsidian-zotero-desktop-connector",
+  "obsidian-pandoc"
 ]

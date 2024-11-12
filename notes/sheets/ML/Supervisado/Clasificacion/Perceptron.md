@@ -6,11 +6,11 @@ subcategory:
   - Supervisado
   - Clasificacion
 tags:
-  - Etiqueta1
-  - Etiqueta2
-  - Etiqueta3
+  - ML
+  - Supervisado
+  - Red_Neuronal
 status:
-  - 🔵 En Progreso
+  - ✅ Completado
 date: 2024-11-08
 asigned_to:
   - "[[Armando]]"
@@ -21,14 +21,14 @@ asigned_to:
 ## ✅ Estado de Compleción
 - [x] **Título del algoritmo**
 - [x] **Representación gráfica del algoritmo**
-- [ ] **Introducción al algoritmo y su relevancia**
-- [ ] **Bases Matemáticas del Algoritmo**
-- [ ] **Código de ejemplo en Python**
-- [ ] **Descripción de los tipos de datos aplicables**
-- [ ] **Supuestos de los datos**
-- [ ] **Ejemplos de aplicación práctica**
-- [ ] **Enlaces a recursos adicionales para profundizar en el tema**
-- [ ] **Referencias**
+- [x] **Introducción al algoritmo y su relevancia**
+- [x] **Bases Matemáticas del Algoritmo**
+- [x] **Código de ejemplo en Python**
+- [x] **Descripción de los tipos de datos aplicables**
+- [x] **Supuestos de los datos**
+- [x] **Ejemplos de aplicación práctica**
+- [x] **Enlaces a recursos adicionales para profundizar en el tema**
+- [x] **Referencias**
 
 ---
 ## 1. Título del Algoritmo
@@ -45,66 +45,89 @@ Referencia: <a href="https://www.flaticon.com/free-icons/perceptron" title="perc
 ---
 ## 3. Introducción al Algoritmo 
 
-Históricamente, el diseño del ***perceptrón*** nació como una inspiración biológica de las neuronas. Este es una unidad básica de procesamiento capaz de realizar tareas de clasificación binaria mediante la suma ponderada de entradas y la aplicación de una función de activación. 
-
-A pesar de su simplicidad, el perceptrón ha sido crucial para el avance de la inteligencia artificial, permitiendo ser una entender conceptos esenciales como el ajuste de pesos y la convergencia en algoritmos de aprendizaje supervisado. Sin embargo, presenta limitaciones, como la incapacidad para resolver problemas que no son linealmente separables, lo que motivó la creación de modelos más avanzados como los perceptrones multicapa y el uso de funciones de activación no lineales.
+El **perceptrón** es uno de los modelos fundamentales en el campo de las [[Redes_Neuronales_Artificiales]], el cual fue introducido por Frank Rosenblatt en los años cincuentas en su famoso paper *(Rosenblatt, 1958)*. Esta estructura está inspirada en el funcionamiento de una neurona biológica, procesando entradas mediante pesos asignados y produciendo una **salida binaria**. Estructuralmente, consiste en una única capa de nodos que aplican una función de activación (función escalón), para clasificar datos en categorías distintas. 
+Aunque su capacidad está limitada a resolver problemas **linealmente separables**, el perceptrón sentó las bases para el desarrollo de arquitecturas más complejas, como los perceptrones multicapa. A pesar de sus limitaciones, el perceptrón es una herramienta educativa e imprescindible en los recursos de enseñanza del aprendizaje automático y profundo *(Du et al., 2022; Li, 2024; Shanthamallu et al., n.d.)*.
 
 ---
 ## 4. Bases Matemáticas del Algoritmo
 
-> **Instrucciones**: Describe brevemente los sustentos matemáticos del algoritmo. Esta sección está diseñada específicamente para expertos (parte del público objetivo del proyecto).
+El **algoritmo del perceptrón** comienza inicializando el vector de pesos $\mathbf{w} = [w_1, w_2, \dots, w_n]$ y el término de sesgo $b$ (también conocido como *bias*) con valores aleatorios. Para cada muestra de entrenamiento con el vector de entrada de características $\mathbf{x} = [x_1, x_2, \dots, x_n]$ y la salida deseada $d$, el algoritmo calcula una suma ponderada $z$ como:
 
-*Ejemplo*
-Las bases matemáticas de SVM se centran en encontrar un hiperplano que separa de manera óptima las diferentes clases en un espacio de alta dimensión. Esto se logra maximizando el margen, es decir, la distancia entre el hiperplano y los vectores de soporte, que son los puntos más cercanos a la frontera ... 
+$$
+z (\mathbf{x}) = \mathbf{w} \cdot \mathbf{x} + b = \sum_{i=1}^{n} w_i x_i + b
+$$
+
+Esta suma se pasa a través de la función de activación $a = a(z)$ para producir la salida predicha $\hat{y}$. Típicamente, la función de activación usada es la **función escalón unitaria**:
+
+$$
+\hat{y} = a(z) =
+\begin{cases}
+1 & \text{si } z > 0 \\
+0 & \text{si} \; z \leq 0
+\end{cases}
+$$
+
+El error se calcula restando la salida predicha de la salida deseada:
+
+$$
+\text{Error} = d - \hat{y}
+$$
+
+Para minimizar este error, los pesos y el sesgo se actualizan utilizando la tasa de aprendizaje $\eta$:
+
+$$
+w_i \leftarrow w_i + \eta \times \text{Error} \times x_i \quad \forall i = 1, 2, \dots, n
+$$
+
+$$
+b \leftarrow b + \eta \times \text{Error}
+$$
+
+Este proceso se repite iterativamente para cada ejemplo de entrenamiento y a lo largo de múltiples épocas hasta que los pesos converjan (es decir, no se cometan más errores) o se alcance un número predefinido de iteraciones. A través de estas actualizaciones, el perceptrón ajusta su línea de decisión para clasificar mejor los datos de entrada *(Du et al., 2022; Li, 2024; Shanthamallu et al., n.d.)*.
 
 ### 4.1 Ilustración del funcionamiento (*Opcional*)
 
 ![[perceptron_des.png]]
 
-Referencia: https://deepgram.com/ai-glossary/perceptron
+**Referencia:** Imagen tomada de *(Shanthamallu et al., n.d.)*
 
 ---
 ## 5. Código de Ejemplo en Python
 
- >**Instrucciones**: Incluir un bloque de código funcional en Python que ilustre la implementación básica del algoritmo. Asegúrese de que el código esté bien documentado.
+Se puede acceder al ejemplo práctico básico de implementación en:
 
-```python
-# Code example in Python
-
-def code_exaple()
-	pass
-````
+[Clasificador de imágenes](C:\Users\arhui\Documents\projects\TAIA\src\basic_code\Perceptron.ipynb)
 
 ---
 ## 6.  Tipos de Datos
 
->*Instrucciones:* Detallar los tipos de datos con los que el algoritmo trabaja mejor (por ejemplo, datos tabulares, series de tiempo, imágenes, texto, etc.). Indique también si requiere preprocesamiento de datos específico.
-
-- Tipo 1
-- Tipo 2
+- Esencialmente cualquier tipo de dato siempre que exista una **representación numérica**, ya sea continua o discreta.  
 
 ---
 ## 7.  Supuestos de los datos
 
->*Instrucciones:* Para aplicar los algoritmos, muchas veces los datos requieren cumplir ciertas condiciones. En caso de ser así, listarlos. 
+- **Separabilidad lineal**
+	-  Debe existir un hiperplano que pueda separar perfectamente las dos clases. 
+- **Input numérico**
+	-  Las características de entrada $x_i$ deben ser numéricas. 
 
-- Supuesto 1
-- Supuesto 2
 --- 
 ## 8. Ejemplos de Aplicación
 
-> *Instrucciones:* Presentar uno o más ejemplos de problemas reales en los que se haya utilizado el algoritmo con éxito. Pueden incluirse ejemplos típicos de aplicación del algoritmo.
-
-- Ejemplo 1
-- Ejemplo 2
+- **Clasificación de Spam en correos electrónicos**: 
+	- El perceptrón puede clasificar mensajes como "spam" o "no spam" analizando características como palabras clave, remitente y frecuencia de ciertos términos.
+- **Clasificación de imágenes médicas básico**:
+	- Ayuda a distinguir entre imágenes de tejidos sanos y anómalos, facilitando el diagnóstico temprano de enfermedades.
 ---
 ## 9. Recursos Adicionales
 
-> *Instrucciones:* Proporcionar enlaces a artículos, libros, cursos o tutoriales que permitan profundizar en el estudio del algoritmo.
-
-- [enlace 1](https://www.ibm.com/topics/support-vector-machine#:~:text=A%20support%20vector%20machine%20(SVM,in%20an%20N%2Ddimensional%20space.)
+- [Guía completa del perceptrón](https://pabloinsente.github.io/the-perceptron)
+- [Simulador de redes neuronales](https://playground.tensorflow.org/#activation=sigmoid&batchSize=7&dataset=gauss&regDataset=reg-plane&learningRate=0.003&regularizationRate=0&noise=25&networkShape=1,2&seed=0.14476&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) 
+	- Puede ser utilizado para simular un perceptrón.
 ---
 ## 10. Referencias
 
-- Referencia 1
-- Referencia 2
+1. Du, Ke-Lin, Chi-Sing Leung, Wai Ho Mow, y M. N. S. Swamy. «Perceptron: Learning, Generalization, Model Selection, Fault Tolerance, and Role in the Deep Learning Era». _Mathematics_ 10, n.o 24 (13 de diciembre de 2022): 4730. [https://doi.org/10.3390/math10244730](https://doi.org/10.3390/math10244730).
+2. Li, Hang. _Machine Learning Methods_. Singapore: Springer Nature Singapore, 2024. [https://doi.org/10.1007/978-981-99-3917-6](https://doi.org/10.1007/978-981-99-3917-6).
+3. Rosenblatt, F. «The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain.» _Psychological Review_ 65, n.o 6 (1958): 386-408. [https://doi.org/10.1037/h0042519](https://doi.org/10.1037/h0042519).
+4. Shanthamallu, Uday Shankar, Andreas Spanias, Khalid Sayood, Kenichi Kanatani, Nasser Kehtarnavaz, Abhishek Sehgal, Shane Parris, y Arian Azarang. _Machine and Deep Learning Algorithms and Applications_, s. f.
