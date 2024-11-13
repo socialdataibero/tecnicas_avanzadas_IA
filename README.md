@@ -1,6 +1,6 @@
 # Técnicas Avanzadas de Inteligencia Artificial - Social Data Ibero
 
-![Social Data Ibero Logo](C:\Users\arhui\Documents\projects\TAIA\assets\images\social_data_logo_.jpg) 
+![Social Data Ibero Logo](/assets/images/social_data_logo_.jpg) 
 
 > Una guía comprensiva y accesible sobre algoritmos de Inteligencia Artificial para todos los niveles de experiencia.
 
