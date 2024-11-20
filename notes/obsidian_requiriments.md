@@ -1,0 +1,5 @@
+- ## Pluggins de la comunidad
+	- Dataview - 0.5.67
+	- Mind Maps - 1.1.0
+	- Zotero Integrations - 3.2.1
+	- Pandoc - 0.4.1

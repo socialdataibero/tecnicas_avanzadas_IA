@@ -1,0 +1,63 @@
+# 1.  Inteligencia Artificial (AI)
+--- 
+- Aprendizaje Automático (*Machine Learning* - ML)
+	- Aprendizaje Supervisado
+		- Clasificación
+			-  Regresión Logística
+			-  Máquina de Vectores de Soporte (SVM)
+			-  Árboles de Decisión
+			-  K Vecinos más Cercanos (K-NN)
+			-  Naive Bayes
+			-  Perceptrón
+		- Regresión
+			- Lineal
+				- Univariada
+				- Multivariada
+			- Polinomial
+			- Lasso
+	- Aprendizaje NO supervisado
+		- Clustering
+			- K-Means
+			- DBSCAN
+			- Mean Shift
+			- Fuzzy C-Means
+		- Reducción de Dimensionalidad
+			-  Análisis de Componentes Independientes (PCA)
+			-  Análisis Discriminante Lineal (LDA)
+			-  t-SNE
+			-  Descomposición en Valores Singulares (SVD)
+			-  Análisis Semántico Latente (LSA)
+	-  Aprendizaje por Refuerzo
+		-  Q - Learning
+		-  SARSA
+		-  Deep Q - Networks (DQN)
+	- Aprendizaje Semi-Supervisado
+		-  Self-Training
+		-  Co-Training
+		-  Transductive SVM
+---
+- Aprendizaje Profundo (*Deep Learning* - DL)
+	-  Perceptrón Multicapa 
+	-  Redes Neuronales Convolucionales (CNNs)
+	-  Redes Neuronales Recurrentes (RNNs)
+	-  Redes Generativas Antagónicas (GANs)
+	-  Transformers
+---
+- Visión por Computadora (**Computer Vision** - CV)
+	- Image Clasification
+	- Object Detection
+	- Image Segmentation
+	- Image Captioning
+	- Facial Recognition
+---
+- Procesamiento Natural del Lenguaje (Natural Language Procesing - NLP)
+	- Text Clasification
+	- Sentiment Analysis
+	- Speech Recognition
+	- Text Summarization
+---
+- Agentes 
+	- Chatbots
+	- Agentes Reactivos
+	- Agentes Basados en Objetivos
+---

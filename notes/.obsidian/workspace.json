@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "a9cbd36c86232e66",
+    "type": "split",
+    "children": [
+      {
+        "id": "f28aec64cb51e226",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "142eb98c5fdd825a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "taxonomy AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "taxonomy AI"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "489b4be08eefbcb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1371ea4abc67450",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef79ecad2dc2b303",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "faa8d9e41e50d9d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "4954911b03dd4d0c",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mind Map of taxonomy AI"
+            }
+          },
+          {
+            "id": "da16aa5e6c861268",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 1682.4
+  },
+  "right": {
+    "id": "a60e2ee064302796",
+    "type": "split",
+    "children": [
+      {
+        "id": "0295192149f30486",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e379f13f8b36d4a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "taxonomy AI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de taxonomy AI"
+            }
+          },
+          {
+            "id": "3cacaf8fa0a14b68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "taxonomy AI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de taxonomy AI"
+            }
+          },
+          {
+            "id": "75855be09247a12b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "d3d1f671da81a885",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Generar_Diagrama_Excalidraw.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Generar_Diagrama_Excalidraw"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "142eb98c5fdd825a",
+  "lastOpenFiles": [
+    "taxonomy AI.md",
+    "Templates/sheet_template.md",
+    "images/clasificator_num.svg",
+    "sheets/DL/CNN.md",
+    "output/sheet_template.html",
+    "output/attachment",
+    "output",
+    "sheets/DL/Perceptrón_Multicapa.md",
+    "presentations/ppt92E5.tmp",
+    "sheets/ML/Supervisado/Clasificacion/Perceptron.md",
+    "obsidian_requiriments.md",
+    "presentations/~$TAIA_log_AH.pptx",
+    "images/perceptron_multicapa_des.png",
+    "images/perceptron_multicapa_icon.png.crdownload",
+    "images/perceptron_multicapa_icon.png",
+    "sheets/Control/control_techniques.md",
+    "sheets/ML/Supervisado/Regresion/Regresion_Lineal_Univariada.md",
+    "TAIA/src/basic_code/Perceptron.ipynb.md",
+    "TAIA/src/basic_code",
+    "TAIA/src",
+    "TAIA",
+    "sheets/ML/Supervisado/Clasificacion/Redes_Neuronales_Artificiales.md",
+    "dev_guide.md",
+    "presentations/ppt2B07.tmp",
+    "images/nomenclatura_images.md",
+    "DL.md",
+    "images/perceptron_des.png",
+    "images/perceptron_des.png",
+    "sheets/Control/control_taxonomy_AI.md",
+    "URL_de_la_imagen.md",
+    "images/perceptron_icon.png",
+    "Fecha inválida.md",
+    "images/regresion.png",
+    "presentations/nomenclature.md",
+    "ML/Regresion_Lineal_Univariada.md",
+    "team/Armando.md",
+    "sheets/ML/Supervisado/Linear_Regression.md",
+    "sheets/DL/CNN.md",
+    "Templates/teammate_template.md",
+    "AI_Diagram_Tree.md",
+    "sheets/ML/Supervisado/Regresion_Logistica.md",
+    "sheets/ML/Supervisado/Regresion_Lineal.md"
+  ]
+}
