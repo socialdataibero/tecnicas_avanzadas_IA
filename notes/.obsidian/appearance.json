@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Border",
   "enabledCssSnippets": [
     "presentation"
   ],
-  "theme": "moonstone",
+  "theme": "obsidian",
   "accentColor": ""
 }

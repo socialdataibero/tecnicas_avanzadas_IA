@@ -6,12 +6,12 @@ subcategory:
   - Supervisado
   - Regresion
 tags:
-  - ML
-  - Supervisado
   - Numérico
-  - Regresión
+  - Intercept
+  - Slope
+  - Residual_errors
 status:
-  - 🔵 En Progreso
+  - ✅ Completado
 date: 29_10_2024
 asigned_to:
   - "[[Armando]]"
@@ -27,7 +27,7 @@ asigned_to:
 - [x] **Código de ejemplo en Python**
 - [x] **Descripción de los tipos de datos aplicables**
 - [x] **Supuestos de datos**
-- [ ] **Ejemplos de aplicación práctica**
+- [x] **Ejemplos de aplicación práctica**
 - [x] **Enlaces a recursos adicionales para profundizar en el tema**
 
 ---
@@ -60,7 +60,7 @@ El objetivo del entrenamiento de este modelo es determinar los coeficientes $w_0
 ---
 ## 4. Código de Ejemplo en Python
 
-[Ejemplo Regresión Lineal Univariada](C:\Users\arhui\Documents\projects\TAIA\src\basic_code\Regresion_Univariada.ipynb)
+[Ejemplo Regresión Lineal Univariada](C:\Users\arhui\Documents\projects\TAIA\notebooks\basic_code\Regresion_Univariada.ipynb)
 
 ---
 ## 5.  Tipos de Datos
@@ -75,8 +75,8 @@ El objetivo del entrenamiento de este modelo es determinar los coeficientes $w_0
 --- 
 ## 7. Ejemplos de Aplicación
 
-- Ejemplo 1
-- Ejemplo 2
+- [Predecir puntaje de examen](https://jhonmont.github.io/posts/python_posts/regresion_lineal_univariante.html?utm_source=chatgpt.com) se muestra cómo predecir la puntuación de un estudiante en un examen en función del tiempo de estudio, utilizando regresión lineal univariada.
+- [Regresion-lineal-simple-y-multiple](https://github.com/JonatanZabala/Regresion-lineal-simple-y-multiple) se realiza un análisis de regresión lineal simple y múltiple utilizando R, basado en un conjunto de datos extraído de Kaggle.
 ---
 ## 8. Recursos Adicionales
 

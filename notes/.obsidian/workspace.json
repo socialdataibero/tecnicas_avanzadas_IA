@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f28aec64cb51e226",
+        "id": "5b7fe1021342aad5",
         "type": "tabs",
         "children": [
           {
-            "id": "142eb98c5fdd825a",
+            "id": "73ec2d122b83fb2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "taxonomy AI.md",
+                "file": "sheets/DL/Perceptrón_Multicapa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "taxonomy AI"
+              "title": "Perceptrón_Multicapa"
             }
           }
         ]
@@ -34,18 +34,6 @@
         "id": "a1371ea4abc67450",
         "type": "tabs",
         "children": [
-          {
-            "id": "ef79ecad2dc2b303",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
-          },
           {
             "id": "faa8d9e41e50d9d3",
             "type": "leaf",
@@ -64,13 +52,25 @@
             }
           },
           {
+            "id": "ef79ecad2dc2b303",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
             "id": "4954911b03dd4d0c",
             "type": "leaf",
             "state": {
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of taxonomy AI"
+              "title": "Mind Map of control_techniques"
             }
           },
           {
@@ -84,11 +84,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 1682.4
+    "width": 200
   },
   "right": {
     "id": "a60e2ee064302796",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "taxonomy AI.md",
+                "file": "sheets/DL/Perceptrón_Multicapa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de taxonomy AI"
+              "title": "Enlaces entrantes de Perceptrón_Multicapa"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "taxonomy AI.md",
+                "file": "sheets/ML/Supervisado/Clasificacion/SVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de taxonomy AI"
+              "title": "Enlaces salientes de SVM"
             }
           },
           {
@@ -156,12 +156,11 @@
               "title": "Esquema de Generar_Diagrama_Excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 375.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -175,49 +174,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "142eb98c5fdd825a",
+  "active": "73ec2d122b83fb2c",
   "lastOpenFiles": [
+    "sheets/Control/control_techniques.md",
+    "sheets/ML/Supervisado/Regresion/Regresion_Lineal_Univariada.md",
+    "src/basic_code/Regresion_Univariada.ipynb.md",
+    "src/basic_code",
+    "src",
+    "sheets/ML/Supervisado/SVM.md",
+    "images/svm_des.png",
+    "presentations/~$TAIA_log_AH.pptx",
     "taxonomy AI.md",
+    "team/Armando.md",
+    "sheets/DL/CNN.md",
+    "images/svm_icon.png",
+    "sheets/ML/Supervisado/Clasificacion/SBM.md",
+    "sheets/ML/Supervisado/Clasificacion/SVMachi.md",
+    "URL_de_la_imagen.md",
+    "images/cnn_icon.png",
+    "images/cnn_icon.png.crdownload",
+    "sheets/DL/Perceptrón_Multicapa.md",
+    "obsidian_requiriments.md",
+    "Sin título.canvas",
+    "dev_guide.md",
     "Templates/sheet_template.md",
     "images/clasificator_num.svg",
-    "sheets/DL/CNN.md",
     "output/sheet_template.html",
     "output/attachment",
     "output",
-    "sheets/DL/Perceptrón_Multicapa.md",
     "presentations/ppt92E5.tmp",
     "sheets/ML/Supervisado/Clasificacion/Perceptron.md",
-    "obsidian_requiriments.md",
-    "presentations/~$TAIA_log_AH.pptx",
     "images/perceptron_multicapa_des.png",
     "images/perceptron_multicapa_icon.png.crdownload",
     "images/perceptron_multicapa_icon.png",
-    "sheets/Control/control_techniques.md",
-    "sheets/ML/Supervisado/Regresion/Regresion_Lineal_Univariada.md",
     "TAIA/src/basic_code/Perceptron.ipynb.md",
     "TAIA/src/basic_code",
-    "TAIA/src",
-    "TAIA",
     "sheets/ML/Supervisado/Clasificacion/Redes_Neuronales_Artificiales.md",
-    "dev_guide.md",
-    "presentations/ppt2B07.tmp",
     "images/nomenclatura_images.md",
     "DL.md",
     "images/perceptron_des.png",
     "images/perceptron_des.png",
     "sheets/Control/control_taxonomy_AI.md",
-    "URL_de_la_imagen.md",
     "images/perceptron_icon.png",
     "Fecha inválida.md",
     "images/regresion.png",
     "presentations/nomenclature.md",
     "ML/Regresion_Lineal_Univariada.md",
-    "team/Armando.md",
     "sheets/ML/Supervisado/Linear_Regression.md",
-    "sheets/DL/CNN.md",
     "Templates/teammate_template.md",
-    "AI_Diagram_Tree.md",
-    "sheets/ML/Supervisado/Regresion_Logistica.md",
-    "sheets/ML/Supervisado/Regresion_Lineal.md"
+    "AI_Diagram_Tree.md"
   ]
 }

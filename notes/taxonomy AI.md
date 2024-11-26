@@ -2,9 +2,9 @@
 --- 
 - Aprendizaje Automático (*Machine Learning* - ML)
 	- Aprendizaje Supervisado
+		- Máquina de Vectores de Soporte (SVM)
 		- Clasificación
 			-  Regresión Logística
-			-  Máquina de Vectores de Soporte (SVM)
 			-  Árboles de Decisión
 			-  K Vecinos más Cercanos (K-NN)
 			-  Naive Bayes

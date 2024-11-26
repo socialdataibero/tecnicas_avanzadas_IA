@@ -1,21 +1,15 @@
 ---
 title: CNN
 category:
-  - 🤖 ML
   - 🧠 DL
-  - 👁️ CV
-  - 🗣️ NLP
-  - 🕵️‍♂️ Agents
 subcategory:
-  - Subcategoria
+  - CV
 tags:
   - Etiqueta1
   - Etiqueta2
   - Etiqueta3
 status:
-  - ❌ No iniciado
   - 🔵 En Progreso
-  - ✅ Completado
 date: 19_11_2024
 asigned_to:
   - "[[Armando]]"
@@ -24,8 +18,8 @@ asigned_to:
 # 📝 Ficha Técnica: CNN
 
 ## ✅ Estado de Compleción
-- [ ] **Título del algoritmo**
-- [ ] **Representación gráfica del algoritmo**
+- [x] **Título del algoritmo**
+- [x] **Representación gráfica del algoritmo**
 - [ ] **Introducción al algoritmo y su relevancia**
 - [ ] **Bases Matemáticas del Algoritmo**
 - [ ] **Código de ejemplo en Python**
@@ -38,17 +32,14 @@ asigned_to:
 ---
 ## 1. Título del Algoritmo
 
->*Instrucciones:* Especificar el nombre del algoritmo de manera clara y concisa.
-### *Ejemplo:* **Máquina de Vectores de Soporte (SVM)**
+###  **Redes Neuronales Convolucionales *(CNN)*** 
 
 ---
 ## 2. Representación Gráfica del Algoritmo
 
-> *Instrucciones:* Inserta una imagen que ilustre la estructura o el funcionamiento del algoritmo. Guarda la imagen en la carpeta icons/. No olvides añadir la referencia de la imagen.
+![[cnn_icon.png]]
 
-![Descripción de la imagen](URL_de_la_imagen)
-
-Referencia: ...
+Referencia: <a href="https://www.flaticon.es/iconos-gratis/vision-de-maquina" title="vision-de-maquina iconos">Vision-de-maquina iconos creados por Freepik - Flaticon</a> 
 
 ---
 ## 3. Introducción al Algoritmo 

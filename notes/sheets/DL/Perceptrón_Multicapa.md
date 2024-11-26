@@ -5,9 +5,8 @@ category:
 subcategory:
   - None
 tags:
-  - Etiqueta1
-  - Etiqueta2
-  - Etiqueta3
+  - Hidden_Layers
+  - Backpropagation
 status:
   - 🔵 En Progreso
 date: 2024-11-12
@@ -23,10 +22,10 @@ asigned_to:
 - [x] **Introducción al algoritmo y su relevancia**
 - [x] **Bases Matemáticas del Algoritmo**
 - [ ] **Código de ejemplo en Python**
-- [ ] **Descripción de los tipos de datos aplicables**
-- [ ] **Supuestos de los datos**
-- [ ] **Ejemplos de aplicación práctica**
-- [ ] **Enlaces a recursos adicionales para profundizar en el tema**
+- [x] **Descripción de los tipos de datos aplicables**
+- [x] **Supuestos de los datos**
+- [x] **Ejemplos de aplicación práctica**
+- [x] **Enlaces a recursos adicionales para profundizar en el tema**
 - [x] **Referencias**
 
 ---
@@ -39,7 +38,7 @@ asigned_to:
 
 ![[perceptron_multicapa_icon.png]]
 
-Referencia: <a href="https://www.flaticon.com/free-icons/neural-network" title="neural network icons">Neural network icons created by Freepik - Flaticon</a> 
+Referencia: <a href="https://www.flaticon.com/free-icons/neural-network" title="neural network icons">Neural network icons created by Freepik - Flaticon</a>  
 
 ---
 ## 3. Introducción al Algoritmo 
@@ -90,31 +89,38 @@ def code_exaple()
 ---
 ## 6.  Tipos de Datos
 
->*Instrucciones:* Detallar los tipos de datos con los que el algoritmo trabaja mejor (por ejemplo, datos tabulares, series de tiempo, imágenes, texto, etc.). Indique también si requiere preprocesamiento de datos específico.
-
-- Tipo 1
-- Tipo 2
+- Es ampliamente versátil con los tipos de datos con los que puede trabajar, que van desde datos estructurados hasta no estructurados, por ejemplo:
+	-  Numéricos
+	-  Categóricos
+	-  Imágenes
+	-  Texto
+	-  Audio
+	-  Series de tiempo
+	- etc
 
 ---
 ## 7.  Supuestos de los datos
 
->*Instrucciones:* Para aplicar los algoritmos, muchas veces los datos requieren cumplir ciertas condiciones. En caso de ser así, listarlos. 
+- **Normalización y escalado de características** 
+	-  Las redes neuronales son muy sensibles a las escalas de las variables, por lo que se deben escalar y normalizar. 
+- **Cantidad suficiente de datos**
+	- Un número insuficiente de muestras puede llevar al sobreajuste.
+- **Preprocesamiento adecuado para el tipo de datos manejados**:
+	- Datos mal preprocesados pueden introducir errores y ruido que afecten negativamente el rendimiento. 
 
-- Supuesto 1
-- Supuesto 2
 --- 
 ## 8. Ejemplos de Aplicación
 
-> *Instrucciones:* Presentar uno o más ejemplos de problemas reales en los que se haya utilizado el algoritmo con éxito. Pueden incluirse ejemplos típicos de aplicación del algoritmo.
+- [MLP-MultiLayerPerceptron-Letter](https://github.com/angelogllrd/MLP-MultiLayerPerceptron-LetterRecognition) se implementa un MLP para **clasificar patrones matriciales de letras**, específicamente las letras 'b', 'd' y 'f'.
+- [Perceptron_multicapa](https://github.com/Diego-LC/Perceptron_multicapa) repositorio para **clasificar patrones de movimiento** en tres categorías usando MLP.
+- [IAUPT](https://github.com/zechmarquis/IAUPT) Emplea MLP para el **reconocimiento de objetos** .
 
-- Ejemplo 1
-- Ejemplo 2
 ---
 ## 9. Recursos Adicionales
 
-> *Instrucciones:* Proporcionar enlaces a artículos, libros, cursos o tutoriales que permitan profundizar en el estudio del algoritmo.
+1. [DataCamp](https://www.datacamp.com/es/tutorial/multilayer-perceptrons-in-machine-learning) explicación detallada de los MLP, incluyendo su estructura, funcionamiento y aplicaciones.
+2. [NN-SVG](https://alexlenail.me/NN-SVG/index.html)  es un generador de diagramas de redes neuronales que facilita la creación y visualización de arquitecturas de redes, incluyendo MLP.
 
-- [enlace 1](https://www.ibm.com/topics/support-vector-machine#:~:text=A%20support%20vector%20machine%20(SVM,in%20an%20N%2Ddimensional%20space.)
 ---
 ## 10. Referencias
 
