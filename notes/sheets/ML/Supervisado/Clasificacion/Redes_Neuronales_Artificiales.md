@@ -2,10 +2,6 @@
 title: Redes_Neuronales_Artificiales
 category:
   - 🤖 ML
-  - 🧠 DL
-  - 👁️ CV
-  - 🗣️ NLP
-  - 🕵️‍♂️ Agents
 subcategory:
   - Subcategoria
 tags:
@@ -13,9 +9,7 @@ tags:
   - Etiqueta2
   - Etiqueta3
 status:
-  - ❌ No iniciado
   - 🔵 En Progreso
-  - ✅ Completado
 date: 10_11_2024
 asigned_to:
   - "[[Armando]]"
