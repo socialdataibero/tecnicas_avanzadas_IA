@@ -4,77 +4,77 @@
     "type": "split",
     "children": [
       {
-        "id": "5b7fe1021342aad5",
+        "id": "8cc8165f9dce121a",
         "type": "tabs",
         "children": [
           {
-            "id": "73ec2d122b83fb2c",
+            "id": "00ccbd7f53a36634",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sheets/Control/control_techniques.md",
+                "file": "dev_guide.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "control_techniques"
+              "title": "dev_guide"
             }
           },
           {
-            "id": "40297731caba44ae",
+            "id": "9c71049614cba056",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sheets/ML/Supervisado/SVM.md",
+                "file": "taxonomy AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SVM"
+              "title": "taxonomy AI"
             }
           },
           {
-            "id": "512ca7ed4b83454d",
+            "id": "8265f729c7ad31f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sheets/DL/Perceptrón_Multicapa.md",
+                "file": "sheets/ML/Supervisado/Ambos/Arboles_Decision.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Perceptrón_Multicapa"
+              "title": "Arboles_Decision"
             }
           },
           {
-            "id": "c3c0e9a0cb645e7e",
+            "id": "e6561b9eb27e9b54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sheets/ML/Supervisado/Regresion/Regresion_Lineal_Univariada.md",
+                "file": "sheets/ML/Supervisado/Ambos/Bosque_Aleatorio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regresion_Lineal_Univariada"
+              "title": "Bosque_Aleatorio"
             }
           },
           {
-            "id": "af9bb58fe3261fb8",
+            "id": "31e56fa9a3c5e0d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sheets/DL/CNN.md",
+                "file": "sheets/ML/No supervisado/Clustering/K-means.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CNN"
+              "title": "K-means"
             }
           }
         ]
@@ -144,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5110321044922
+    "width": 200
   },
   "right": {
     "id": "a60e2ee064302796",
@@ -232,13 +232,32 @@
   },
   "active": "ef79ecad2dc2b303",
   "lastOpenFiles": [
-    "presentations/ppt20E.tmp",
-    "sheets/DL/CNN.md",
-    "images/cnn_des.png",
+    "obsidian_requiriments.md",
+    "taxonomy AI.md",
+    "dev_guide.md",
     "sheets/Control/control_techniques.md",
-    "sheets/ML/Supervisado/Regresion/Regresion_Lineal_Univariada.md",
     "sheets/DL/Perceptrón_Multicapa.md",
-    "sheets/ML/Supervisado/SVM.md",
+    "presentations/ppt2B09.tmp",
+    "sheets/Control/control_taxonomy_AI.md",
+    "sheets/ML/Supervisado/Ambos/SVM.md",
+    "sheets/ML/Supervisado/Ambos/Arboles_Decision.md",
+    "sheets/ML/No supervisado/Clustering/K-means.md",
+    "sheets/ML/Supervisado/Ambos/Bosque_Aleatorio.md",
+    "images/k_means_des.png",
+    "images/k_means_icon.png",
+    "sheets/ML/No supervisado/Clustering",
+    "sheets/ML/No supervisado",
+    "images/random_forest_des.png",
+    "images/random_forest_icon.png",
+    "sheets/ML/Supervisado/Ambos",
+    "images/decision_trees_des.png",
+    "images/decision_tree_icon.png",
+    "images/decision_tree_icon.png.crdownload",
+    "sheets/DL/Sin título.md",
+    "sheets/DL/CNN.md",
+    "sheets/ML/Supervisado/Regresion/Regresion_Lineal_Univariada.md",
+    "presentations/ppt20E.tmp",
+    "images/cnn_des.png",
     "sheets/ML/Supervisado/Clasificacion/Redes_Neuronales_Artificiales.md",
     "presentations/ppt8E39.tmp",
     "src/basic_code/Regresion_Univariada.ipynb.md",
@@ -246,38 +265,18 @@
     "src",
     "images/svm_des.png",
     "presentations/~$TAIA_log_AH.pptx",
-    "taxonomy AI.md",
     "team/Armando.md",
     "images/svm_icon.png",
     "sheets/ML/Supervisado/Clasificacion/SBM.md",
     "sheets/ML/Supervisado/Clasificacion/SVMachi.md",
     "URL_de_la_imagen.md",
     "images/cnn_icon.png",
-    "images/cnn_icon.png.crdownload",
-    "obsidian_requiriments.md",
     "Sin título.canvas",
-    "dev_guide.md",
     "Templates/sheet_template.md",
-    "images/clasificator_num.svg",
-    "output/sheet_template.html",
-    "output/attachment",
-    "output",
-    "presentations/ppt92E5.tmp",
     "sheets/ML/Supervisado/Clasificacion/Perceptron.md",
-    "images/perceptron_multicapa_des.png",
-    "images/perceptron_multicapa_icon.png.crdownload",
-    "images/perceptron_multicapa_icon.png",
     "TAIA/src/basic_code/Perceptron.ipynb.md",
     "images/nomenclatura_images.md",
     "DL.md",
-    "images/perceptron_des.png",
-    "images/perceptron_des.png",
-    "sheets/Control/control_taxonomy_AI.md",
-    "images/perceptron_icon.png",
-    "Fecha inválida.md",
-    "presentations/nomenclature.md",
-    "ML/Regresion_Lineal_Univariada.md",
-    "sheets/ML/Supervisado/Linear_Regression.md",
-    "Templates/teammate_template.md"
+    "Fecha inválida.md"
   ]
 }

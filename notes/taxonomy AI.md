@@ -2,10 +2,8 @@
 --- 
 - Aprendizaje Automático (*Machine Learning* - ML)
 	- Aprendizaje Supervisado
-		- Máquina de Vectores de Soporte (SVM)
 		- Clasificación
 			-  Regresión Logística
-			-  Árboles de Decisión
 			-  K Vecinos más Cercanos (K-NN)
 			-  Naive Bayes
 			-  Perceptrón
@@ -15,6 +13,10 @@
 				- Multivariada
 			- Polinomial
 			- Lasso
+		- Ambos
+			-  Árboles de Decisión
+			-  Bosque aleatorio (Random Forest)
+			-  Máquina de Vectores de Soporte (SVM)
 	- Aprendizaje NO supervisado
 		- Clustering
 			- K-Means

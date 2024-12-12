@@ -8,7 +8,7 @@ tags:
   - Hidden_Layers
   - Backpropagation
 status:
-  - 🔵 En Progreso
+  - ✅ Completado
 date: 2024-11-12
 asigned_to:
   - "[[Armando]]"
@@ -21,7 +21,7 @@ asigned_to:
 - [x] **Representación gráfica del algoritmo**
 - [x] **Introducción al algoritmo y su relevancia**
 - [x] **Bases Matemáticas del Algoritmo**
-- [ ] **Código de ejemplo en Python**
+- [x] **Código de ejemplo en Python**
 - [x] **Descripción de los tipos de datos aplicables**
 - [x] **Supuestos de los datos**
 - [x] **Ejemplos de aplicación práctica**
@@ -77,14 +77,7 @@ El entrenamiento del MLP se realiza mediante el algoritmo de **retropropagación
 ---
 ## 5. Código de Ejemplo en Python
 
- >**Instrucciones**: Incluir un bloque de código funcional en Python que ilustre la implementación básica del algoritmo. Asegúrese de que el código esté bien documentado.
-
-```python
-# Code example in Python
-
-def code_exaple()
-	pass
-````
+(Código de ejemplo)[C:\Users\arhui\Documents\projects\TAIA\notebooks\basic_code\MLP.ipynb]
 
 ---
 ## 6.  Tipos de Datos
